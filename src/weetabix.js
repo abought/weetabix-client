@@ -70,7 +70,7 @@ class Reader {
                 throw new Error('Could not successfully request partial data');
             }
             return resp.text();
-        }).then(data => CSV.parse(data, {cellDelimiter: this._delimiter}));
+        }).then(data => CSV.parse(data, {cellDelimiter: this._delimiter, cast: false}));
     }
 
     getEntries() {

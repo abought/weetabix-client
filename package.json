@@ -5,7 +5,7 @@
   "main": "dist/weetabix.js",
   "module": "src/index.js",
   "scripts": {
-    "build":"parcel build src/weetabix.js --global wtb --public-url .",
+    "build":"parcel build src/weetabix.js --global wtb --public-url ."
   },
   "author": "",
   "license": "MIT",
